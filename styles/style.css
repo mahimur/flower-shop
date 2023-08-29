@@ -52,7 +52,7 @@
 
 .header-title {
     color: #272727;
-    font-size: 64px;
+    font-size: 62px;
     line-height: normal;
     margin-bottom: 30px;
     font-weight: 700;
@@ -144,7 +144,7 @@
 
 /* discount style start */
 .discount-container {
-    background-color: rgba(229, 84, 115, 0.05);
+    background-color: rgba(229, 84, 115, 0.1);
     display: flex;
     padding: 80px 150px;
     align-items: center;
@@ -211,7 +211,7 @@
 .newsletter-container {
     background-image: url('../images/Rectangle 9.png');
     text-align: center;
-    margin: 0 175px;
+    margin: 100px 175px;
     padding: 80px 0;
 }
 
@@ -224,3 +224,33 @@ input[type=email] {
 }
 
 /* newsletter styles end */
+
+/* footer styles start */
+.footer-container {
+    background-color: #111010;
+    padding: 110px 175px 80px;
+    color: #fff;
+}
+
+.footer-info {
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-title {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.footer-text {
+    margin-bottom: 30px;
+}
+
+.footer-info code {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+/* footer styles end */
