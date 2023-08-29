@@ -20,18 +20,30 @@
     transition: 0.5s;
 }
 
+.title-primary {
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.text-primary {
+    font-size: 16px;
+    color: rgba(39, 39, 39, 0.6);
+    margin-bottom: 30px;
+}
+
 /* header styles start */
 .header-container {
     background-color: rgba(229, 84, 115, 0.1);
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 55px 55px 0;
+    padding: 75px 75px 0;
 }
 
 .header-description {
     max-width: 50%;
-    margin: 120px;
+    margin: 100px;
 }
 
 .header-title {
@@ -42,14 +54,63 @@
     font-weight: 700;
 }
 
-.header-text {
-    font-size: 16px;
-    color: rgba(39, 39, 39, 0.6);
-    margin-bottom: 30px;
-}
-
 /* header styles end */
 
 /* featured flowers styles start */
+.featured-container {
+    padding: 120px 175px 80px;
+}
+
+.featured-info {
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.featured-images {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    padding-top: 20px;
+}
+
+.figure {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-radius: 50% 50% 0 0;
+    width: 350px;
+    height: 400px;
+}
+
+.figure img {
+    max-width: 65%;
+    height: auto;
+}
+
+.fig-1 {
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+.fig-2 {
+    background-color: rgba(5, 151, 160, 0.15)
+}
+
+.fig-2 img {
+    margin-bottom: 40px;
+    max-width: 80%;
+}
+
+.fig-3 {
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.fig-caption {
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 20px;
+}
 
 /* featured flowers styles end */
