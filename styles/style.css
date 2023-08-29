@@ -1,0 +1,55 @@
+/* common styles */
+* {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.btn-primary {
+    background-color: #E55473;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    color: #E55473;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+/* header styles start */
+.header-container {
+    background-color: rgba(229, 84, 115, 0.1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 55px 55px 0;
+}
+
+.header-description {
+    max-width: 50%;
+    margin: 120px;
+}
+
+.header-title {
+    color: #272727;
+    font-size: 64px;
+    line-height: normal;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.header-text {
+    font-size: 16px;
+    color: rgba(39, 39, 39, 0.6);
+    margin-bottom: 30px;
+}
+
+/* header styles end */
+
+/* featured flowers styles start */
+
+/* featured flowers styles end */
