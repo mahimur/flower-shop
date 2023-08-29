@@ -21,7 +21,7 @@
 }
 
 .title-primary {
-    font-size: 40px;
+    font-size: 34px;
     font-weight: 600;
     padding-bottom: 30px;
 }
@@ -30,6 +30,10 @@
     font-size: 16px;
     color: rgba(39, 39, 39, 0.6);
     margin-bottom: 30px;
+}
+
+.color-primary {
+    color: #E55473;
 }
 
 /* header styles start */
@@ -120,10 +124,9 @@
     background-color: rgba(39, 39, 39, 0.05);
     display: flex;
     justify-content: space-around;
-    margin: 0 175px;
+    margin: 0 175px 100px;
     padding: 50px;
     border-radius: 10px;
-    margin-bottom: 100px;
 }
 
 .support {
@@ -136,3 +139,23 @@
 }
 
 /* support styles end */
+
+/* discount style start */
+.discount-container {
+    background-color: rgba(229, 84, 115, 0.05);
+    display: flex;
+    padding: 80px 250px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.discount-info {
+    text-align: center;
+}
+
+.discount-info p {
+    max-width: 80%;
+    margin: 0 auto 40px;
+}
+
+/* discount style end */
