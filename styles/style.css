@@ -61,11 +61,13 @@
 /* header styles end */
 
 /* featured flowers styles start */
-.featured-container {
-    padding: 120px 175px 80px;
+.featured-container,
+.instagram-container {
+    padding: 110px 175px 80px;
 }
 
-.featured-info {
+.featured-info,
+.instagram-info {
     max-width: 50%;
     text-align: center;
     margin: 0 auto;
@@ -144,9 +146,9 @@
 .discount-container {
     background-color: rgba(229, 84, 115, 0.05);
     display: flex;
-    padding: 80px 250px;
+    padding: 80px 150px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 
 .discount-info {
@@ -154,8 +156,21 @@
 }
 
 .discount-info p {
-    max-width: 80%;
+    max-width: 70%;
     margin: 0 auto 40px;
 }
 
 /* discount style end */
+
+/* instagram styles start */
+.instagram-images {
+    display: flex;
+    justify-content: space-around;
+}
+
+.instagram-images img {
+    max-width: 23.5%;
+    height: auto;
+}
+
+/* instagram styles end */
