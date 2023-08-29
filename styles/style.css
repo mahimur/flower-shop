@@ -28,7 +28,7 @@
 
 .text-primary {
     font-size: 16px;
-    color: rgba(39, 39, 39, 0.6);
+    color: rgba(39, 39, 39, 0.8);
     margin-bottom: 30px;
 }
 
@@ -174,3 +174,35 @@
 }
 
 /* instagram styles end */
+
+/* about us styles start */
+.about-container {
+    padding: 0 175px 80px;
+    background-image: url('../images/bg-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-title {
+    text-align: center;
+    font-size: 46px;
+    text-decoration: underline;
+    padding: 50px 0;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.about-info {
+    max-width: 50%;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* about us styles end */
